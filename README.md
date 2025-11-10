@@ -19,4 +19,4 @@ It fetches and evaluates site headers, detects CDN edge responses, and scores se
 ## Run Locally
 ```bash
 npm install
-wrangler dev
+npm run dev
