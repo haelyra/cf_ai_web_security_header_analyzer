@@ -31,7 +31,7 @@ export function HeaderGuard() {
 
 		const interval = setInterval(() => {
 			setLoadingMessageIndex((prev) => (prev + 1) % LOADING_MESSAGES.length);
-		}, 3000);
+		}, 4500);
 
 		return () => clearInterval(interval);
 	}, [loading]);
